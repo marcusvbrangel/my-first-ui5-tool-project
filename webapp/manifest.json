@@ -1,0 +1,7 @@
+{
+    "_version": "1.21.0",
+    "sap.app": {
+        "id": "quickstart.01",
+        "type": "application"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "quickstart.01",
+  "version": "1.0.0",
+  "description": "My First UI5 Tool project",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "keywords": [
+    "SAPUI5",
+    "UI5",
+    "UI5 Tooling",
+    "FIORI"
+  ],
+  "author": "Marcus Vinicius",
+  "license": "MIT",
+  "devDependencies": {
+    "@ui5/cli": "^3.7.2"
+  }
+}
