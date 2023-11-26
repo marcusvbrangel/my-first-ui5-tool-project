@@ -1,3 +1,3 @@
 
-# "My First UI5 Tool project
+# My First UI5 Tool project
 
