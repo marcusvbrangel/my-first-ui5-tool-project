@@ -47,6 +47,8 @@ ui5 add sap.ui.core
 
 ui5 add sap.m
 
+ui5 add sap.ui.comps
+
 ui5 add themelib_sap_fiori_3
 
 
