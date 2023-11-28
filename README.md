@@ -1,3 +1,3 @@
 
-# 02 - Bootstrap
+# 02 - Bootstrap - Walkthrough 
 
