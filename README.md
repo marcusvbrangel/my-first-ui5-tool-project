@@ -1,3 +1,3 @@
 
-# 03 - Bootstrap - Walkthrough
+# 04 - XML Views - Walkthrough
 
