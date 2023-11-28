@@ -1,3 +1,3 @@
 
-# 03 - Bootstrap - Walkthrough
+# 03 - Controls - Walkthrough
 
