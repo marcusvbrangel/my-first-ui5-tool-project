@@ -1,10 +1,9 @@
 {
-  "name": "quickstart.01",
+  "name": "ui5.walkthrough",
   "version": "1.0.0",
-  "description": "My First UI5 Tool project",
-  "main": "index.js",
+  "description": "UI5 walkthrough",
   "scripts": {
-    "start": "ui5 serve",
+    "start": "ui5 serve -o index.html",
     "build": "ui5 build"
   },
   "keywords": [
