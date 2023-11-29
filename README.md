@@ -1,3 +1,3 @@
 
-# 06 - Modules - Walkthrough
+# 07 - JSON Model - Walkthrough
 
