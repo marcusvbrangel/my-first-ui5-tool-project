@@ -30,3 +30,10 @@
 
 ---
 
+[SAPUI5 Walkthrough Step 8- Translatable Texts i18n](https://www.youtube.com/watch?v=20PTIlVH4wc)
+
+[Easily Implement Language Translation in SAP UI5 using i18n Files](https://www.youtube.com/watch?v=KjqenYC6itY)
+
+[How to translate fiori apps resource model | Translating Your App Content | Fiori / FLP Translations](https://www.youtube.com/watch?v=ylLN5ma-Wlw)
+
+---
