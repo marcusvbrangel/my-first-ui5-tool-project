@@ -1,32 +1,8 @@
 
-# 08 - Translatable Texts - Walkthrough  ?????
-
-[Resource Model](https://sapui5.hana.ondemand.com/#/topic/91f122a36f4d1014b6dd926db0e91070.html%23loio91f122a36f4d1014b6dd926db0e91070)
-
-[class sap/base/i18n/ResourceBundle](https://sapui5.hana.ondemand.com/#/api/module:sap/base/i18n/ResourceBundle)
-
-[class sap.ui.model.resource.ResourceModel](https://sapui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel)
-
-
-### W3C Internationalization (I18N)
-
-[W3C Internationalization](https://www.w3.org/International/O-charset-lang.html)
-
-[New W3C Internationalization](https://www.w3.org/International/)
+# 09 - Component Configuration - Walkthrough
 
 ---
 
-- i18n_pt.properties
-- i18n_us.properties
-- i18n_es.properties
-- i18n_de.properties
-- i18n_fr.properties
+http://localhost:8080/index.html?sap-ui-language=es
 
----
-
-- pt_BR
-- en_US
-- es_ES
-
----
 
