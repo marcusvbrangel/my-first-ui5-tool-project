@@ -1,3 +1,3 @@
 
-# 05 - Controllers - Walkthrough
+# 06 - Modules - Walkthrough
 
