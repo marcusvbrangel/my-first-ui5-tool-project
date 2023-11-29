@@ -3,11 +3,15 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
 
-    <Button id="btnHello" text="Say Hello" press="onShowHello"/>
+    <Button 
+        id="btnHello" 
+        text="{i18n>showHelloButtonText}" 
+        press="onShowHello"/>
 
     <Input 
+        id="txtHello"
         value="{/recipient/name}"
-        description="{/recipient/name}"
+        description="Hello {/recipient/name}"
         valueLiveUpdate="true"
         width="60%"    
     />
