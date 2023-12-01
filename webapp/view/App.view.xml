@@ -15,22 +15,28 @@
                     <content>
 
                         <Panel
-                            headerText="{i18n>helloPanelTitle}">
+                            headerText="{i18n>helloPanelTitle}"
+                            class="sapUiResponsiveMargin"
+                            width="auto">
 
                             <content>
 
                                 <Button 
                                     id="btnHello" 
                                     text="{i18n>showHelloButtonText}" 
-                                    press="onShowHello"/>
+                                    press="onShowHello"
+                                    class="sapUiSmallMarginEnd"/>
 
                                 <Input 
                                     id="txtHello"
                                     value="{/recipient/name}"
-                                    description="Hello {/recipient/name}"
                                     valueLiveUpdate="true"
-                                    width="60%"    
-                                />
+                                    width="60%"  
+                                    class="sapUiSmallMargin"/>
+
+                                <Text
+                                    text="Hello {/recipient/name}"
+                                    class="sapUiSmallMargin"/>
 
                             </content>
 
