@@ -10,6 +10,12 @@
 
         <content>
 
+            <Button
+                id="openDialogButtonText"
+                text="{i18n>openDialogButtonText}"
+                press="onOpenDialog"
+                class="sapUiSmallMarginEnd"/>
+
             <Button 
                 id="btnHello" 
                 text="{i18n>showHelloButtonText}" 
@@ -23,8 +29,8 @@
                 width="60%"  
                 class="sapUiSmallMargin"/>
 
-            <Text
-                text="Hello {/recipient/name}"
+            <FormattedText
+                htmlText="Hello {/recipient/name}"
                 class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
 
         </content>

@@ -15,8 +15,19 @@ sap.ui.define([
 
             MessageToast.show(sMsg);
 
+        },
+
+        onOpenDialog() {
+
+            // create a dialog lazily...
+            this.pDialog ??= this.loadFragment({
+                name: "ui5.walkthrough.view.HelloDialog"
+            });
+
+            this.pDialog.then((oDialog) => oDialog.open());
+
         }
         
     });
-
+    
 });
