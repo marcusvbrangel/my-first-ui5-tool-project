@@ -6,6 +6,15 @@
         id="helloDialog"
         title="Hello {/recipient/name}">
 
+        <content>
+
+            <core:Icon
+                src="sap-icon://hello-world"
+                size="8rem"
+                class="sapUiMediumMargin"/>
+
+        </content>
+
         <beginButton>
         
             <Button
