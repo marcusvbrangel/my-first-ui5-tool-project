@@ -1,21 +1,43 @@
 <mvc:View
+    controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
-    xmlns:mvc="sap.ui.core.mvc"
-    >
+    xmlns:mvc="sap.ui.core.mvc">
 
     <List
         headerText="{i18n>invoiceListTitle}"
         class="sapUiResponsiveMargin"
         width="auto"
-        items="{invoice>/Invoices}">
+        items="{invoice>/Invoices}"
+        busy="false"
+        busyIndicatorDelay="5000"
+        busyIndicatorSize="Medium"
+        backgroundDesign="Solid"
+        enableBusyIndicator="true"
+        footerText="Footer List"
+        growingScrollToLoad="true"
+        modeAnimationOn="true"
+        showSeparators="All"
+        noDataText="No Data"
+        >
 
         <items>
 
             <ObjectListItem
-                title="{invoice>Quantity} x {invoice>ProductName}"/>
-        
+                title="{invoice>Quantity} x {invoice>ProductName}"
+                number="{
+                    parts: [
+                        'invoice>ExtendedPrice',
+                        'view>/currency'
+                    ],
+                    type: 'sap.ui.model.type.Currency',
+                    formatOptions: {
+                        showMeasure: false
+                    }
+                }"
+                numberUnit="{view>/currency}"/>
+
         </items>
 
     </List>
-
+    
 </mvc:View>
