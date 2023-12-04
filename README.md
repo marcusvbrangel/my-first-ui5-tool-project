@@ -1,7 +1,7 @@
 
-# 20 - Data Types - Walkthrough
+# 21 - Expression Binding - Walkthrough
 
 
-[Lists](https://ui5.sap.com/#/topic/1da158152f644ba1ad408a3e982fd3df.html)
+[Expression Binding](https://ui5.sap.com/#/topic/c98d57347ba444c6945f596584d2db45)
 
 ---
