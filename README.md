@@ -1,7 +1,11 @@
 
-# 22 - Custom Formatters - Walkthrough
+# 23 - Filtering - Walkthrough
 
 
-[Expression Binding](https://ui5.sap.com/#/topic/c98d57347ba444c6945f596584d2db45)
+[API Reference: sap.ui.model.Filter](https://ui5.sap.com//#/api/sap.ui.model.Filter)
+
+[API Reference: sap.ui.model.FilterOperator](https://ui5.sap.com//#/api/sap.ui.model.FilterOperator)
+
+[API Reference: sap.m.SearchField](https://ui5.sap.com//#/api/sap.m.SearchField)
 
 ---
