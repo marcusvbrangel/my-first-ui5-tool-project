@@ -4,6 +4,7 @@
   "description": "UI5 walkthrough",
   "scripts": {
     "start": "ui5 serve -o index.html",
+    "start-mock": "ui5 serve -o test/mockServer.html",
     "build": "ui5 build"
   },
   "keywords": [
