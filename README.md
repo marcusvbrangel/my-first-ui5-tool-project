@@ -6,10 +6,8 @@
 
 [API Reference: sap.ui.core.util.MockServer](https://ui5.sap.com/#/api/sap.ui.core.util.MockServer)
 
-[UI5 simple proxy middleware](http://help.sap.com/disclaimer?site=https://bestofui5.org/#/packages/ui5-middleware-simpleproxy)
-
 ---
 
-npm start-mock
+npm run start-mock
 
 ---
